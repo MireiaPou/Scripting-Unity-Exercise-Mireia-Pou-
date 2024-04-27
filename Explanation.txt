@@ -1,0 +1,15 @@
+Student:
+Mireia Pou (u198721)
+
+Explanation: 
+This is the build for the scripting unity exercise of Lab2, Interactive Systems. 
+
+I have implemented both parts of the scripting exercise (although only the first one was mandatory).
+I have solved an issue with the counter of the sheeps. 
+When a sheep fell down, it counted 2 instead of 1. I guessed this was because the method was called 
+twice, but have been unable to see where. Instead, I have solved this by adding a counter private variable to the script and adding one only when the variable was even. 
+
+The knowledge we need to play the game is: 
+- When opened, there is a title. If you press "play", the game starts. If you press "quit", the window is closed
+- Before playing the game you can press the hay machine to choose the color.
+- When entering play mode, you can move the hay machine with the arrows, and create a hay bale with the space. There will be coming sheeps and the main objective is to kill the sheeps with the hale bales. If three sheeps fall down, you loose. 
